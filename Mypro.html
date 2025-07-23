@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <link href="style.CSS" rel="stylesheet">
+
+
+  <title>Emoji Mood Detective</title>
+
+
+</head>
+<body>
+  <script src="script.JS"></script>
+  <h1>🎭 Emoji Mood Detective</h1>
+  <p id="scoreDisplay">Score: 0 | Round: 0/10</p>
+  <p id="mypargrap">Click Start to play!</p>
+  <p id="result"></p>
+  <div class="control-buttons">
+    <button onclick="startGame()">▶️ Start Game</button>
+    <button onclick="resetGame()">🔁 Restart Game</button>
+  </div>
+
+  <!-- Emoji Buttons -->
+  <button onclick="checkAnswer('😄')">😄</button>
+  <button onclick="checkAnswer('😢')">😢</button>
+  <button onclick="checkAnswer('😱')">😱</button>
+  <button onclick="checkAnswer('😡')">😡</button>
+  <button onclick="checkAnswer('🤔')">🤔</button>
+  <button onclick="checkAnswer('😴')">😴</button>
+  <button onclick="checkAnswer('😁')">😁</button>
+  <button onclick="checkAnswer('😎')">😎</button>
+  <button onclick="checkAnswer('🥳')">🥳</button>
+  <button onclick="checkAnswer('😇')">😇</button>
+  <button onclick="checkAnswer('😭')">😭</button>
+  <button onclick="checkAnswer('😬')">😬</button>
+
+  <p id="timer">⏳ Time Left: 10</p>
+</body>
+</html>
