@@ -5,7 +5,7 @@ This is a simple memory-based emoji card matching game. The player flips over ca
 
 Live Demo  
 Try it out here:  
-https://getahunm.github.io/Emoji-Mood-Detective/
+https://GetahunM.github.io/Emoji-Mood-Detective/
 
 Project Features
 ----------------
